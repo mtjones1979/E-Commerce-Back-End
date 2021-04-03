@@ -16,12 +16,13 @@
   I am to build the back end for an e-commerce site. I took a working Express.js API and configured it to use Sequelize to interact wth a MySQL database.
 
   ## Usage
+  Application Video:
   
-  * Application Video:
-  [Video Link]()
+  [Video Link 1](https://drive.google.com/file/d/1xTqJr9OcnK0hjUQP-wPFuApVegCb_mXe/preview)
   
-  * Screenshots:
-  ![alt text]()
+  [Video Link 2](https://drive.google.com/file/d/1xtP-EiwjEBKNr5E4jUG4S2WW8H8shq0L/preview)
+  
+  [Video Link 3](https://drive.google.com/file/d/1L1RyvvXLcySZaCsEiR_cauL477Q7xQHW/preview)
 
   ## Installation
   I had to install Dotenv, Express, MySQL2, Sequelize - everything is ran through command line to Insomnia.
