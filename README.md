@@ -25,10 +25,10 @@
   [Video Link 3](https://drive.google.com/file/d/1L1RyvvXLcySZaCsEiR_cauL477Q7xQHW/preview)
 
   ## Installation
-  I had to install Dotenv, Express, MySQL2, Sequelize - everything is ran through command line to Insomnia.
+  I had to install Dotenv, Express, MySQL2, Sequelize - everything is ran through command line (npm start) and viewed through Insomnia.
 
   ## Test
-   To make sure it worked, I had to test in Insomnia using GET, PUT, POST, and DELETE routes numerous times.
+   To make sure it is functional, I had to run in Insomnia using GET, PUT, POST, and DELETE routes for Categories, Products, and Tags.
   
   ## Contributors
   Jennifer Kruk - Tutor
