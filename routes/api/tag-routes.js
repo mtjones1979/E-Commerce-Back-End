@@ -8,45 +8,40 @@ router.get('/', (req, res) => {
   // be sure to include its associated Product data
   Tag.findAll(
   {
-    include: [
-    Product, 
+    include: [ 
       {
-        model: Product,
-        through: ProductTag,
+        model: Product
       }
     ]
   }
   ) .then ((results)=> res.json(results))
     .catch((err) => res.status(500).json(err))
-    console.log(err)
 });
 
 router.get('/:id', (req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
-  Product.findOne(
+  Tag.findAll(
   {
     where: {
       id: req.params.id,
     },
     include: [
-    Product, 
     {
       model: Product,
-      through: ProductTag,
+      through: ProductTag
     }
   ]
   }
   ) .then ((results)=> res.json(results))
-    .catch((err) => res.status(500).json(err))
-console.log(err)
+    .catch((err) => res.status(500).json({message: 'No Tag found with this ID'}));
+
 });
 
 router.post('/', (req, res) => {
   // create a new tag
   Tag.create(
   {
-    id: req.body.id,
     tag_name: req.body.tag_name,
   }
   ) .then((results) => res.json(results))
@@ -70,7 +65,7 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
-  Category.destroy(
+  Tag.destroy(
     {
       where: {
         id: req.params.id,
