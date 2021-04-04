@@ -18,11 +18,11 @@
   ## Usage
   Application Video:
   
-  [Categories Link](https://drive.google.com/file/d/1xTqJr9OcnK0hjUQP-wPFuApVegCb_mXe/preview)
+  [Categories Demo Link](https://drive.google.com/file/d/1xTqJr9OcnK0hjUQP-wPFuApVegCb_mXe/preview)
   
-  [Products Link](https://drive.google.com/file/d/1xtP-EiwjEBKNr5E4jUG4S2WW8H8shq0L/preview)
+  [Products Demo Link](https://drive.google.com/file/d/1xtP-EiwjEBKNr5E4jUG4S2WW8H8shq0L/preview)
   
-  [Tags Link](https://drive.google.com/file/d/1L1RyvvXLcySZaCsEiR_cauL477Q7xQHW/preview)
+  [Tags Demo Link](https://drive.google.com/file/d/1L1RyvvXLcySZaCsEiR_cauL477Q7xQHW/preview)
 
   ## Installation
   I had to install Dotenv, Express, MySQL2, Sequelize - everything is ran through command line (npm start) and viewed through Insomnia.
